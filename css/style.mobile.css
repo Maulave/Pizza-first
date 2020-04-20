@@ -1,0 +1,169 @@
+
+
+.title {
+    font-weight: 500;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+
+
+.offer-elem-text .title1 {
+    font-size: 1.4rem;
+}
+
+
+/* vp + header*/
+
+header {
+    flex-direction: column;
+}
+
+.vp-container header .vp-logo a {
+    font-size: 2rem;
+}
+
+header ul {
+    flex-direction: column;
+    text-align: center;
+}
+
+header ul li {
+    padding: 0.5rem;
+    margin-top: 1.5rem;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.vp-content h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 6rem
+}
+
+.vp-content p {
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 2rem;
+    margin-bottom: 6rem;
+}
+
+.offer {
+    padding: 5rem 1rem 5rem 1rem;
+    text-align: center;
+}
+
+.offer-list {
+    flex-direction: column;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+.nom-pizza h2{
+    font-size: 0.7rem;
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nom-pizza p{
+    font-size: 0.6rem;
+    padding-left: 0.2rem;
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.prix {
+    font-size: 0.7rem;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    background: rgb(66, 66, 66);
+    height: 27px;
+    margin-top: 0.3rem;
+    align-items: flex-end;
+}
+
+footer ul li {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    font-size: 0.9rem;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer div a {
+    padding: 1rem 5rem 1rem 0rem;
+    font-size: 2rem;
+}
+
+footer {
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: rgb(94, 93, 92);
+    margin-top: 3rem;
+}
+
+.info-pratique {    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-info {
+    background: rgb(94, 93, 92);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.map {
+    height: 9rem;
+    width: 20rem;
+    background: url(/img/localisation.PNG) center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+}
+
+.info-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    padding: 0.3rem;
+    margin-right: 0rem;
+}
+
+.facebook {
+    margin: 0rem;
+}
+
+footer h2 a i {
+    padding: 0rem;
+ }
